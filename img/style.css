@@ -1,0 +1,171 @@
+body {
+    background-color: #c2d2e9 !important;
+}
+
+.navbar-brand {
+    margin-right: auto;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.container-fluid {
+    background-color: #3a4e7a;
+}
+
+.nav-item a {
+    color: black;
+}
+
+nav ul li:hover {
+    background: #c2d2e9;
+}
+
+
+.navbar-brand img {
+    width: 50px;
+}
+
+
+
+.sobremisection {
+    background-image: url('img/1014.jpg'); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+    background-position: center; /* Centra la imagen */
+    color: white; /* Color del texto */
+    display: flex;
+    justify-content: center; /* Alineación horizontal */
+    align-items: center; /* Alineación vertical */
+
+}
+
+.col {
+    padding: 20px; /* Añade espacio interno */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+.col h1, .col h3, .col h4 {
+    margin: 10px 0; /* Añade espacio vertical entre los elementos de texto */
+}
+
+.col img {
+    display: block;
+    margin: 0 auto 5px; /* Centra la imagen horizontalmente y añade espacio inferior */
+}
+
+
+.contenedor {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 80px;
+}
+
+.contenedor2 {
+    padding: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+   }
+
+
+.logocss {
+    width: 150%;
+}
+
+.logo {
+    width: 100%;
+}
+
+.ninjasection {
+    background-image: url('img/abstract-view-modern-architecture.jpg'); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+    background-position: center; /* Centra la imagen */
+    color: white; /* Color del texto */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.ninjasection h1 {
+    grid-column: 1 / -1;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
+    grid-column: 1 / -1; /* Alinear con el h1 */
+}
+
+
+.container div {
+    margin-right: 20px; /* Espacio entre los elementos */
+}
+
+.container input {
+    width: 200px; /* Ancho de los inputs */
+}
+
+.custom-alert {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #3a4e7a;
+    border: 1px solid #091d36;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.alert-content {
+    text-align: center;
+}
+
+.input1, .input2, #sumarBtn {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px; /* Limita el ancho máximo */
+}
+
+
+#closeBtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+
+#resultado {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.ninjasection {
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container > div {
+    margin-bottom: 10px;
+}
+
